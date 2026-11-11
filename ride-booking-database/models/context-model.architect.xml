@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.9">
+ <project-name>Final Context</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="PlayPen Database" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="48225238-761d-40f8-8923-d08f4231c56d" name="DRIVER" objectType="TABLE" physicalName="DRIVER" >
+   <remarks></remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX2" populated="true" UUID="99522e84-2cb1-4c35-884d-a12596d98b8e" clustered="false" name="DRIVER_pk" physicalName="DRIVER_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB3" populated="true" UUID="44ccd3d8-0be8-4485-8e22-351db3157654" name="RIDE" objectType="TABLE" physicalName="RIDE" >
+   <remarks></remarks>
+   <folder id="FOLTAB31" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX4" populated="true" UUID="0b2c79b8-46c7-4be6-9dcd-9572b2655268" clustered="false" name="RIDE_pk" physicalName="RIDE_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB5" populated="true" UUID="57df408c-9c5c-463d-982a-8ee06aeced80" name="VEHICLE" objectType="TABLE" physicalName="VEHICLE" >
+   <remarks></remarks>
+   <folder id="FOLTAB51" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX6" populated="true" UUID="bc5a6c5a-6abf-4df1-95a3-d2e3239d7fa3" clustered="false" name="VEHICLE_pk" physicalName="VEHICLE_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB7" populated="true" UUID="86f19b5c-5e2e-441c-aa4d-9c71c415eb10" name="VEHICLE_MAINTENANCE" objectType="TABLE" physicalName="VEHICLE_MAINTENANCE" >
+   <remarks></remarks>
+   <folder id="FOLTAB71" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX8" populated="true" UUID="f9ec8984-70e5-4615-b3e1-22614a689b5b" clustered="false" name="VEHICLE_MAINTENANCE_pk" physicalName="VEHICLE_MAINTENANCE_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB9" populated="true" UUID="3c12219c-cada-4899-994e-dba607cc5728" name="REVIEW" objectType="TABLE" physicalName="REVIEW" >
+   <remarks></remarks>
+   <folder id="FOLTAB91" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX10" populated="true" UUID="a09cf5bb-9f31-4cb3-95c4-e6977ffa62ac" clustered="false" name="REVIEW_pk" physicalName="REVIEW_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB11" populated="true" UUID="c08db481-bc69-46e5-91a5-91cb26927b08" name="CAR_ACCESSORY" objectType="TABLE" physicalName="CAR_ACCESSORY" >
+   <remarks></remarks>
+   <folder id="FOLTAB111" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX12" populated="true" UUID="79c6efe0-b399-47ee-a25b-c845455dcef6" clustered="false" name="CAR_ACCESSORY_pk" physicalName="ITEM_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB13" populated="true" UUID="0e9df2e8-6f26-4481-97a0-3fbffde25a56" name="PAYMENT" objectType="TABLE" physicalName="PAYMENT" >
+   <remarks></remarks>
+   <folder id="FOLTAB131" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX14" populated="true" UUID="ee714052-0dfc-490b-82ba-2cf4d4d5fc55" clustered="false" name="PAYMENT_pk" physicalName="PAYMENT_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB15" populated="true" UUID="40f8da78-ab06-4b33-9d82-baa9241fd5d3" name="PASSENGER" objectType="TABLE" physicalName="PASSENGER" >
+   <remarks></remarks>
+   <folder id="FOLTAB151" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX16" populated="true" UUID="621e962f-eab1-42bf-ab97-0dfa6b562f19" clustered="false" name="PASSENGER_pk" physicalName="PASSENGER_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB17" populated="true" UUID="f32c37c6-48cf-4103-9f07-3faac3ac552d" name="CARD" objectType="TABLE" physicalName="CARD" >
+   <remarks></remarks>
+   <folder id="FOLTAB171" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX18" populated="true" UUID="66456af4-e931-4744-9f0e-bae849ad7494" clustered="false" name="CARD_pk" physicalName="CARD_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB19" populated="true" UUID="30852f25-0330-4eb7-b2ba-6b90b500e323" name="SUPPORT_REQUEST" objectType="TABLE" physicalName="SUPPORT_REQUEST" >
+   <remarks></remarks>
+   <folder id="FOLTAB191" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX20" populated="true" UUID="262b4a41-9e26-4d37-ae18-c59daf6d392d" clustered="false" name="SUPPORT_REQUEST_pk" physicalName="SUPPORT_REQUEST_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB21" populated="true" UUID="2cfb25a3-5872-413a-b173-8ef9fd535ea2" name="PROMOTION" objectType="TABLE" physicalName="PROMOTION" >
+   <remarks></remarks>
+   <folder id="FOLTAB211" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX22" populated="true" UUID="bff28e1b-9626-4b9b-b96a-f0de98316217" clustered="false" name="PROMOTION_pk" physicalName="PROMOTION_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB23" populated="true" UUID="204cd1a0-3b8d-4bae-a48b-fab3aad6d97e" name="PROMOTION" objectType="TABLE" physicalName="PROMOTION" >
+   <remarks></remarks>
+   <folder id="FOLTAB231" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX24" populated="true" UUID="0eedee9a-237d-43ae-b32e-255ca11f8ece" clustered="false" name="PROMOTION_pk" physicalName="PROMOTION_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB25" populated="true" UUID="c6dc5a9f-b8d9-4e4f-bfcf-feba6f3d74da" name="PASSENGER_RATING" objectType="TABLE" physicalName="PASSENGER_RATING" >
+   <remarks></remarks>
+   <folder id="FOLTAB251" populated="true" name="Columns" physicalName="Columns" type="1">
+    <index id="IDX26" populated="true" UUID="31e98714-5c6d-46a1-9c35-097815324707" clustered="false" name="PASSENGER_RATING_pk" physicalName="PASSENGER_RATING_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL27" populated="true" UUID="3189caca-f7d9-4a38-a238-f99236a59376" deferrability="7" deleteRule="3" fk-table-ref="TAB3" fkCardinality="6" identifying="true" name="DRIVER_RIDE_fk" physicalName="DRIVER_RIDE_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL28" populated="true" UUID="f8b491e0-e008-44ab-a9ee-0006934ae3f9" deferrability="7" deleteRule="3" fk-table-ref="TAB5" fkCardinality="6" identifying="true" name="DRIVER_VEHICLE_fk" physicalName="DRIVER_VEHICLE_fk" pk-table-ref="TAB1" pkCardinality="6" updateRule="3" >
+   </relationship>
+   <relationship id="REL29" populated="true" UUID="bf305262-4714-4d6d-ad18-43e3cd5e61ab" deferrability="7" deleteRule="3" fk-table-ref="TAB25" fkCardinality="7" identifying="true" name="DRIVER_PASSENGER_RATING_fk" physicalName="DRIVER_PASSENGER_RATING_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL30" populated="true" UUID="b74d292d-f956-4387-b488-ce418d2f591c" deferrability="7" deleteRule="3" fk-table-ref="TAB11" fkCardinality="7" identifying="false" name="RIDE_CAR_ACCESSORY_fk" physicalName="RIDE_CAR_ACCESSORY_fk" pk-table-ref="TAB3" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL31" populated="true" UUID="1102b723-6985-4dfc-a772-a82dc3cc58cc" deferrability="7" deleteRule="3" fk-table-ref="TAB19" fkCardinality="7" identifying="false" name="RIDE_SUPPORT_REQUEST_fk" physicalName="RIDE_SUPPORT_REQUEST_fk" pk-table-ref="TAB3" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL32" populated="true" UUID="98081785-580f-468a-9678-bfd7e2cdedf1" deferrability="7" deleteRule="3" fk-table-ref="TAB9" fkCardinality="3" identifying="false" name="RIDE_REVIEW_fk" physicalName="RIDE_REVIEW_fk" pk-table-ref="TAB3" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL33" populated="true" UUID="e2a9d5c3-a460-492b-be74-3c83bed4bce2" deferrability="7" deleteRule="3" fk-table-ref="TAB7" fkCardinality="6" identifying="true" name="VEHICLE_VEHICLE_MAINTENANCE_fk" physicalName="VEHICLE_VEHICLE_MAINTENANCE_fk" pk-table-ref="TAB5" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL34" populated="true" UUID="f5010c82-82b7-4583-9be0-1a89800157bd" deferrability="7" deleteRule="3" fk-table-ref="TAB11" fkCardinality="7" identifying="false" name="VEHICLE_CAR_ACCESSORY_fk" physicalName="VEHICLE_CAR_ACCESSORY_fk" pk-table-ref="TAB5" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL35" populated="true" UUID="f45c1bf2-1ccf-41b2-8d97-626a8b64aca6" deferrability="7" deleteRule="3" fk-table-ref="TAB3" fkCardinality="3" identifying="false" name="PAYMENT_RIDE_fk" physicalName="PAYMENT_RIDE_fk" pk-table-ref="TAB13" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL36" populated="true" UUID="47cb5b0e-0c8f-4f97-bbf1-d8d16a28cceb" deferrability="7" deleteRule="3" fk-table-ref="TAB23" fkCardinality="6" identifying="true" name="PASSENGER_PROMOTION_fk" physicalName="PASSENGER_PROMOTION_fk" pk-table-ref="TAB15" pkCardinality="6" updateRule="3" >
+   </relationship>
+   <relationship id="REL37" populated="true" UUID="c6c8e426-62dc-47b5-88eb-6c5a315c3504" deferrability="7" deleteRule="3" fk-table-ref="TAB25" fkCardinality="7" identifying="true" name="PASSENGER_PASSENGER_RATING_fk" physicalName="PASSENGER_PASSENGER_RATING_fk" pk-table-ref="TAB15" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL38" populated="true" UUID="8d5cc990-8b9c-45d6-8180-e1b2f43a7a4a" deferrability="7" deleteRule="3" fk-table-ref="TAB3" fkCardinality="6" identifying="true" name="PASSENGER_RIDE_fk" physicalName="PASSENGER_RIDE_fk" pk-table-ref="TAB15" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL39" populated="true" UUID="8a2b36e3-f4d4-4b45-bc2f-3d54c5da25f6" deferrability="7" deleteRule="3" fk-table-ref="TAB19" fkCardinality="7" identifying="false" name="PASSENGER_SUPPORT_REQUEST_fk" physicalName="PASSENGER_SUPPORT_REQUEST_fk" pk-table-ref="TAB15" pkCardinality="2" updateRule="3" >
+   </relationship>
+   <relationship id="REL40" populated="true" UUID="e37eac20-3d8f-4653-94a3-b5a8f2da92e8" deferrability="7" deleteRule="3" fk-table-ref="TAB17" fkCardinality="7" identifying="true" name="PASSENGER_CARD_fk" physicalName="PASSENGER_CARD_fk" pk-table-ref="TAB15" pkCardinality="2" updateRule="3" >
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.6817928305074283" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="202" y="257" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB3" x="350" y="250" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB5" x="200" y="345" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB7" x="166" y="420" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB9" x="342" y="157" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB11" x="320" y="331" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB13" x="426" y="157" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB15" x="493" y="251" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB17" x="595" y="170" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB19" x="456" y="319" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB21" x="840" y="704" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB23" x="588" y="315" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB25" x="511" y="117" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL27" pkConnection="0.3793103448275862" fkConnection="0.6206896551724138" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL28" pkConnection="0.4878048780487805" fkConnection="0.4888888888888889" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL33" pkConnection="0.4888888888888889" fkConnection="0.45528455284552843" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL36" pkConnection="0.6551724137931034" fkConnection="0.4153846153846154" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="129"/>
+  <table-link relationship-ref="REL37" pkConnection="0.639344262295082" fkConnection="0.19811320754716982" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL38" pkConnection="0.4827586206896552" fkConnection="0.5172413793103449" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL34" pkConnection="0.2413793103448276" fkConnection="0.7241379310344828" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL29" pkConnection="0.46938775510204084" fkConnection="0.45161290322580644" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="40"/>
+  <table-link relationship-ref="REL39" pkConnection="0.4918032786885246" fkConnection="0.6633663366336634" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL40" pkConnection="0.9836065573770492" fkConnection="0.6206896551724138" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="40"/>
+  <table-link relationship-ref="REL30" pkConnection="0.48148148148148145" fkConnection="0.4942528735632184" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL35" pkConnection="0.28" fkConnection="0.06896551724137931" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="20"/>
+  <table-link relationship-ref="REL31" pkConnection="0.9259259259259259" fkConnection="0.2413793103448276" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="36"/>
+  <table-link relationship-ref="REL32" pkConnection="0.48148148148148145" fkConnection="0.5" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
